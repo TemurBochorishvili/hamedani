@@ -11,6 +11,8 @@ namespace Hamedani
             
         }
 
-        public DbSet<Make> MyProperty { get; set; }
+        public DbSet<Make> Makes { get; set; }
+
+        public DbSet<Feature> Features { get; set; }
     }
 }
